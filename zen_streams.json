@@ -1,1 +1,162 @@
-
+{
+  "updatedAt": "2026-11-11",
+  "version": 1,
+  "stations": [
+    {
+      "id": "therapy_positivity",
+      "name": "Positively Relax & Therapy",
+      "categoryRo": "Terapie prin Muzică",
+      "categoryEn": "Music Therapy",
+      "descriptionRo": "Muzică terapeutică binaurală și frecvențe ambientale studiate pentru scăderea cortizolului și liniștire nervoasă.",
+      "descriptionEn": "Therapeutic soundscapes and gentle tones designed to lower cortisol and ease anxiety.",
+      "streamUrl": "https://streaming.positivity.radio/stream/positivityrelax",
+      "accentHex": 4278638292,
+      "badgeText": "24/7 TERAPIE",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "therapy_caprice",
+      "name": "Radio Caprice Music Therapy",
+      "categoryRo": "Terapie prin Muzică",
+      "categoryEn": "Music Therapy",
+      "descriptionRo": "Armonii compuse special pentru relaxare psihoterapeutică, eliberarea tensiunii acumulate și echilibru mental.",
+      "descriptionEn": "Harmonic compositions designed for mental balance, deep de-stressing and inner harmony.",
+      "streamUrl": "http://79.111.14.76:8000/musictherapy",
+      "accentHex": 4282065654,
+      "badgeText": "LIVE TERAPIE",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "therapy_sleepbot",
+      "name": "Sleepbot Ambient Drone",
+      "categoryRo": "Terapie prin Muzică",
+      "categoryEn": "Music Therapy",
+      "descriptionRo": "Stream legendar de drone ambient fără ritm, recomandat de terapeuți pentru inducerea stării meditative profunde.",
+      "descriptionEn": "Legendary beat-free ambient drone broadcast, ideal for deep focus and nervous system resetting.",
+      "streamUrl": "http://icecast.sleepbot.com:8000/listen",
+      "accentHex": 4287323382,
+      "badgeText": "AMBIENT DRONE",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "zen_costa_del_mar",
+      "name": "Costa Del Mar Zen",
+      "categoryRo": "Meditație & Mindfulness",
+      "categoryEn": "Meditation & Mindfulness",
+      "descriptionRo": "Post internațional de top: boluri tibetane, chitare acustice suave și peisaje sonore zen de cea mai înaltă puritate.",
+      "descriptionEn": "World-class station featuring Tibetan singing bowls, acoustic textures, and peaceful zen soundscapes.",
+      "streamUrl": "https://radio4.cdm-radio.com:8020/stream-mp3-Zen",
+      "accentHex": 4279298433,
+      "badgeText": "PREMIUM ZEN",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "zen_drone_zone",
+      "name": "SomaFM Drone Zone",
+      "categoryRo": "Meditație & Mindfulness",
+      "categoryEn": "Meditation & Mindfulness",
+      "descriptionRo": "Cel mai ascultat stream ambient din lume. Texturi calde plutitoare pentru mindfulness și prezență conștientă.",
+      "descriptionEn": "World's premier ambient stream. Atmospheric textures for mindfulness and deep contemplation.",
+      "streamUrl": "https://ice1.somafm.com/dronezone-128-mp3",
+      "accentHex": 4279548070,
+      "badgeText": "SOMAFM MASTER",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "zen_radio_art_meditation",
+      "name": "Radio Art Meditation",
+      "categoryRo": "Meditație & Mindfulness",
+      "categoryEn": "Meditation & Mindfulness",
+      "descriptionRo": "Flaut de bambus, harpe cerești și clopoței de vânt pentru respirație conștientă și meditație ghidată.",
+      "descriptionEn": "Bamboo flutes, celestial harps, and wind chimes for conscious breathing and peaceful meditation.",
+      "streamUrl": "https://live.radioart.com/fMeditation.mp3",
+      "accentHex": 4281193663,
+      "badgeText": "24/7 ZEN HD",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "sleep_deep_space",
+      "name": "SomaFM Deep Space One",
+      "categoryRo": "Somn Profund & Vindecare",
+      "categoryEn": "Deep Sleep & Healing",
+      "descriptionRo": "Muzică cosmică lentă, ecouri spațiale și frecvențe Delta recomandate pentru adormire rapidă și somn neîntrerupt.",
+      "descriptionEn": "Deep, slow space ambient music. Ideal for transitioning into restorative Delta sleep.",
+      "streamUrl": "https://ice2.somafm.com/deepspaceone-128-mp3",
+      "accentHex": 4284696305,
+      "badgeText": "SOMN DELTA",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "sleep_dark_web",
+      "name": "SomaFM Sleep's Dark Web",
+      "categoryRo": "Somn Profund & Vindecare",
+      "categoryEn": "Deep Sleep & Healing",
+      "descriptionRo": "Peisaje sonore întunecate și catifelate care calmează dialogul interior și opresc ruminația nocturnă.",
+      "descriptionEn": "Velvety nocturnal soundscapes designed to quiet racing thoughts and induce restful sleep.",
+      "streamUrl": "https://ice1.somafm.com/darkzone-128-mp3",
+      "accentHex": 4283385573,
+      "badgeText": "NOCTURN HD",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "sleep_cdm_chill",
+      "name": "Costa Del Mar Chillout",
+      "categoryRo": "Somn Profund & Vindecare",
+      "categoryEn": "Deep Sleep & Healing",
+      "descriptionRo": "Melodii blânde de apus la malul mării pentru relaxarea completă a musculaturii înainte de culcare.",
+      "descriptionEn": "Sunset ocean melodies crafted to lower heart rate and release physical tension before bed.",
+      "streamUrl": "https://radio4.cdm-radio.com:8000/stream-mp3-Chill",
+      "accentHex": 4286744568,
+      "badgeText": "CHILL SLEEP",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "spa_radio_art",
+      "name": "Radio Art Spa & Massage",
+      "categoryRo": "Spa, Reiki & Masaj",
+      "categoryEn": "Spa, Reiki & Massage",
+      "descriptionRo": "Acustică de sanctuar wellness. Melodii armonioase ce reproduc starea de calm dintr-un centru spa de lux.",
+      "descriptionEn": "Acoustic wellness sanctuary. Harmonious tracks reproducing the tranquil ambiance of a luxury spa.",
+      "streamUrl": "https://live.radioart.com/fSpa.mp3",
+      "accentHex": 4293675161,
+      "badgeText": "WELLNESS SPA",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "spa_caprice_reiki",
+      "name": "Radio Caprice Reiki",
+      "categoryRo": "Spa, Reiki & Masaj",
+      "categoryEn": "Spa, Reiki & Massage",
+      "descriptionRo": "Frecvențe line cu clopoței la intervale regulate, perfecte pentru terapie Reiki, masaj și alinierea centrilor energetici.",
+      "descriptionEn": "Gentle frequencies ideal for Reiki therapy, bodywork, and energy balance.",
+      "streamUrl": "http://79.111.14.76:8000/reiki",
+      "accentHex": 4292495087,
+      "badgeText": "REIKI ENERGY",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "nature_birdsong",
+      "name": "Birdsong Live Sanctuaries",
+      "categoryRo": "Natură & Acustic Zen",
+      "categoryEn": "Nature & Ambient",
+      "descriptionRo": "Triluri reale de păsări captate non-stop din sanctuare naturale. Îmbunătățește starea de spirit și reduce anxietatea.",
+      "descriptionEn": "Authentic live birdsong broadcast from natural wildlife sanctuaries around the globe.",
+      "streamUrl": "https://streaming.positivity.radio/stream/birds",
+      "accentHex": 4280468830,
+      "badgeText": "NATURĂ LIVE",
+      "bitrate": "128 kbps"
+    },
+    {
+      "id": "nature_calm_radio",
+      "name": "Calm Radio Nature Streams",
+      "categoryRo": "Natură & Acustic Zen",
+      "categoryEn": "Nature & Ambient",
+      "descriptionRo": "Păduri montane, vânt printre pini și ape curgătoare de mare fidelitate pentru lucru și odihnă.",
+      "descriptionEn": "High fidelity mountain streams, pine forest breezes and gentle waters.",
+      "streamUrl": "https://streams.calmradio.com/api/1003/128/stream",
+      "accentHex": 4279298433,
+      "badgeText": "HD NATURE",
+      "bitrate": "128 kbps"
+    }
+  ]
+}
