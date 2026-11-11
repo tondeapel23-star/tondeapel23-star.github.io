@@ -1,0 +1,47 @@
+# Politica de Confidențialitate – Smart Receipt
+
+**Aplicație:** Smart Receipt – Expenses & Budget (Cheltuieli & Buget)  
+**Pachet Android:** `com.smartreceipt.expenses.budget`  
+**Data intrării în vigoare:** Noiembrie 2026  
+
+---
+
+### Angajamentul nostru pentru confidențialitate
+Aplicația **Smart Receipt – Expenses & Budget** respectă cu strictețe confidențialitatea utilizatorilor săi. Aplicația este construită pe principiul stocării locale (**Local-First & Privacy by Design**): **toate datele tale financiare, fotografiile bonurilor fiscale și istoricul de cumpărături sunt stocate exclusiv pe telefonul tău**. Aplicația nu deține și nu utilizează servere externe pentru a stoca sau transfera datele tale personale.
+
+---
+
+### 1. Permisiuni și date utilizate
+
+* **Camera foto (`android.permission.CAMERA`):**
+  * Este utilizată exclusiv atunci când alegi să fotografiezi un bon fiscal de cumpărături.
+  * Imaginea este procesată instantaneu pe procesorul telefonului tău prin modelul AI local **Google ML Kit Text Recognition**.
+  * Fotografiile nu sunt încărcate pe internet și nu părăsesc niciodată dispozitivul tău.
+* **Baza de date locală (SQLite):**
+  * Datele despre cheltuieli, venituri, bugete lunare, garanții și produse scanate sunt salvate exclusiv într-o bază de date privată și securizată din memoria telefonului tău.
+* **Cursul Valutar BNR:**
+  * Aplicația descarcă doar fișierul public XML al Băncii Naționale a României (`curs.bnr.ro`) pentru a calcula conversia valutară la zi. Nu se transmit date de identificare a utilizatorului.
+
+---
+
+### 2. Servicii terțe integrate
+
+* **Google ML Kit Text Recognition (On-Device):**
+  * Tehnologie oficială Google pentru recunoașterea optică a caracterelor de pe bon. Rulează 100% offline pe telefon, fără conexiune la cloud.
+* **Google AdMob & Google UMP (User Messaging Platform):**
+  * Aplicația este gratuită și este susținută prin reclame furnizate de Google AdMob.
+  * Pentru utilizatorii din Uniunea Europeană (SEE) și Regatul Unit, este integrat formularul oficial Google UMP pentru consimțământul GDPR.
+  * AdMob poate utiliza identificatori anonimi de publicitate în conformitate cu [Politica de Confidențialitate Google](https://policies.google.com/privacy).
+
+---
+
+### 3. Controlul utilizatorului și ștergerea datelor
+
+* **Export de date:** Poți exporta oricând toate tranzacțiile tale într-un fișier CSV compatibil Excel.
+* **Ștergerea completă:** Ai libertatea de a șterge orice tranzacție, bon sau buget oricând din meniu. Dezinstalarea aplicației șterge ireversibil toate datele stocate pe telefon.
+
+---
+
+### 4. Contact
+
+Dacă ai întrebări sau sugestii legate de această politică de confidențialitate, ne poți contacta prin pagina dedicată din Google Play Store.
