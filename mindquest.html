@@ -1,95 +1,212 @@
-# Privacy Policy — MindQuest – Brain & Logic
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — MindQuest – Brain & Logic</title>
+    <style>
+        :root {
+            --bg-color: #070e22;
+            --card-bg: #0f1d3a;
+            --accent-cyan: #38bdf8;
+            --accent-gold: #fbbf24;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border-color: #1e3a5f;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 36px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 28px;
+        }
+        .header h1 {
+            color: var(--accent-cyan);
+            margin: 0 0 8px 0;
+            font-size: 28px;
+        }
+        .header .meta {
+            color: var(--accent-gold);
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 16px;
+        }
+        .lang-btn {
+            background: #172554;
+            color: #fff;
+            border: 1px solid var(--accent-cyan);
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .lang-btn:hover, .lang-btn.active {
+            background: var(--accent-cyan);
+            color: #070e22;
+        }
+        h2 {
+            color: var(--accent-gold);
+            font-size: 20px;
+            border-bottom: 1px solid rgba(251, 191, 36, 0.2);
+            padding-bottom: 6px;
+            margin-top: 32px;
+        }
+        p, li {
+            color: #cbd5e1;
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight-box {
+            background: rgba(56, 189, 248, 0.08);
+            border-left: 4px solid var(--accent-cyan);
+            padding: 14px 18px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
 
-**Effective Date:** November 14, 2026  
-**Application:** MindQuest – Brain & Logic  
-**Developer:** Luigy (Independent Developer)  
-**Contact:** luigy.developer@gmail.com  
+<div class="container">
+    <div class="header">
+        <h1>MindQuest – Brain & Logic</h1>
+        <div class="meta" id="header-meta">Official Privacy Policy • Effective Date: November 14, 2026</div>
+        <div class="lang-switch">
+            <button class="lang-btn active" id="btn-en" onclick="setLang('en')">🇬🇧 English</button>
+            <button class="lang-btn" id="btn-ro" onclick="setLang('ro')">🇷🇴 Română</button>
+        </div>
+    </div>
 
-Your privacy is paramount to us. This Privacy Policy outlines how **MindQuest – Brain & Logic** ("the Application", "we", "our") handles information when you download, install, and enjoy our mobile puzzle game on Android devices.
+    <!-- ENGLISH VERSION -->
+    <div id="content-en">
+        <div class="highlight-box">
+            <strong>Key Summary:</strong> MindQuest operates 100% offline for puzzle gameplay. We do not collect, sell, or store your personal identity on any custom servers. Game progress stays on your device. Advertising is safely managed through official Google AdMob with GDPR/UMP consent controls.
+        </div>
 
----
+        <h2>1. Information We Store Locally</h2>
+        <p>To provide a persistent puzzle experience, the following progress data is stored <strong>locally on your Android device</strong> via <code>SharedPreferences</code>:</p>
+        <ul>
+            <li>Completed level IDs across all 4 categories (Logic, Trivia, Riddles, Sorting);</li>
+            <li>Earned gold stars, coins, XP points, and available hints;</li>
+            <li>Active daily streak, claimed free streak shields, and unlocked themes;</li>
+            <li>Custom preferences (English/Romanian language, sound effects, haptic vibrations, large text).</li>
+        </ul>
+        <p>This data never leaves your device and can be erased at any time via <em>Settings &gt; Reset &amp; Restart All Progress</em> or by uninstalling the app.</p>
 
-## 1. Executive Summary
+        <h2>2. Third-Party Services (Google AdMob)</h2>
+        <p>The Application uses <strong>Google AdMob</strong> (Google LLC) to deliver non-intrusive banner ads and optional rewarded ads for hints. Google AdMob may process pseudo-anonymized diagnostic metrics, mobile advertising IDs (GAID), and device technical details in compliance with Google Play Developer Policies.</p>
 
-* **No Personal Data Collection:** MindQuest does not require user accounts, logins, or registration. We do not collect names, email addresses, phone numbers, precise GPS locations, or contacts.
-* **100% Offline Gameplay & Local Storage:** All game progression (solved levels, coins, XP, stars, unlocked themes, bookmarks, and cognitive radar statistics) is stored exclusively on your device using Android's private `SharedPreferences` sandbox.
-* **Offline Backup & Restore (`MQ1-...`):** The progress export and import feature functions entirely offline. Backup strings are computed client-side on your device and are never transmitted to any external cloud database.
-* **Privacy-Safe Advertising & GDPR Consent (Google AdMob):** We integrate Google AdMob with the official Google User Messaging Platform (UMP) to comply with European General Data Protection Regulation (GDPR), UK GDPR, and CCPA standards.
+        <h2>3. GDPR Consent &amp; Privacy Controls (Google UMP)</h2>
+        <p>In the European Economic Area (EEA) and the UK, users are presented with a consent form powered by Google's User Messaging Platform (UMP). You can review or adjust your ad consent choices anytime in <strong>Settings &gt; Manage Ad Privacy Consent (GDPR)</strong>.</p>
 
----
+        <h2>4. Permissions Used</h2>
+        <ul>
+            <li><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code>: Required solely for Google AdMob and GDPR consent synchronization.</li>
+            <li><code>VIBRATE</code>: Used exclusively for subtle tactile feedback during button interactions (can be disabled in Settings).</li>
+        </ul>
+        <p><strong>MindQuest NEVER requests:</strong> Camera, Microphone, Precise GPS Location, Contacts, Photos, or External Storage permissions.</p>
 
-## 2. What Information We Handle and How It Is Used
+        <h2>5. Children's Privacy (COPPA)</h2>
+        <p>MindQuest is a family-safe brain puzzle game. We do not knowingly collect personal identifiable information from children under 13.</p>
 
-### a) Game Progress Data (Locally Stored on Device)
-To provide a smooth, persistent gameplay experience across sessions, the following data points are stored **locally within your device's isolated application storage**:
-* Solved levels across the 4 core categories (Logic & Deduction, Trivia & Knowledge, Riddles & Enigmas, Sort & Organize);
-* Gold stars, virtual coins, XP points, and available hints;
-* Active daily streak counter, best streak, and claimed Daily Streak Shields;
-* Unlocked visual theme IDs and active theme selection;
-* User preferences (Romanian / English language, procedural sound synthesizer, haptic vibration feedback, large text accessibility).
+        <h2>6. Contact Developer</h2>
+        <p>For inquiries regarding this policy or the application, contact:</p>
+        <p><strong>Luigy (Independent Developer)</strong><br>Email: <a href="mailto:luigy.developer@gmail.com">luigy.developer@gmail.com</a></p>
+    </div>
 
-> **Note:** This data never leaves your device and is automatically removed if you uninstall the application or choose the *"Restart Game from Scratch (Reset)"* option in the Settings menu.
+    <!-- ROMANIAN VERSION -->
+    <div id="content-ro" class="hidden">
+        <div class="highlight-box">
+            <strong>Rezumat Esențial:</strong> MindQuest funcționează 100% offline pentru joc. Nu colectăm, nu vindem și nu stocăm identitatea ta pe servere externe. Tot progresul rămâne pe telefonul tău. Reclamele sunt gestionate securizat prin Google AdMob cu acord GDPR/UMP.
+        </div>
 
-### b) Technical Data Processed by Third-Party Services (Google AdMob)
-The Application utilizes **Google AdMob** (Google LLC) to deliver non-intrusive banner and optional rewarded video advertisements. Google AdMob may automatically collect and process certain pseudo-anonymized device and diagnostic information, including:
-* Mobile advertising identifiers (e.g., Google Advertising ID - GAID);
-* Device technical characteristics (device model, Android OS version, screen resolution, locale/language settings);
-* Aggregated ad interaction metrics (impressions, clicks, completed rewarded video views);
-* Approximate coarse location (country or city level derived from IP address) to serve regionally appropriate ads.
+        <h2>1. Informații Stocate Local</h2>
+        <p>Pentru a asigura salvarea progresului tău, următoarele date sunt stocate <strong>exclusiv pe memoria dispozitivului tău</strong> prin <code>SharedPreferences</code>:</p>
+        <ul>
+            <li>Nivelurile finalizate din cele 4 categorii (Logică, Trivia, Ghicitori, Sortare);</li>
+            <li>Stelele de aur, monedele, punctele XP și indiciile disponibile;</li>
+            <li>Seria zilnică activă, scuturile de serie gratuite și temele deblocate;</li>
+            <li>Preferințele de joc (limba Română/Engleză, efecte sonore, vibrații haptice, text mărit).</li>
+        </ul>
+        <p>Aceste date nu părăsesc telefonul și pot fi șterse oricând din <em>Setări &gt; Reia Jocul de la Zero</em> sau prin dezinstalarea aplicației.</p>
 
----
+        <h2>2. Servicii Terțe (Google AdMob)</h2>
+        <p>Aplicația integrează <strong>Google AdMob</strong> (Google LLC) pentru afișarea de bannere adaptative și reclame opționale cu recompensă. Google AdMob poate procesa identificatori anonimizați de publicitate (GAID) conform politicilor Google Play.</p>
 
-## 3. Advertising Consent & GDPR / UMP Management
+        <h2>3. Consimțământ GDPR &amp; Confidențialitate (Google UMP)</h2>
+        <p>Conform reglementărilor europene GDPR, utilizatorii își pot gestiona sau modifica oricând opțiunile de consimțământ publicitar direct din meniul <strong>Setări &gt; Gestionează Consimțământul Publicitar (GDPR)</strong>.</p>
 
-In accordance with European Union **GDPR** regulations and UK/Swiss privacy laws, users are presented with a consent form powered by Google's certified User Messaging Platform (UMP). Through this form, and at any time via **Settings -> Manage Ad Privacy Consent (GDPR)**, you can:
-* Grant consent for personalized advertising;
-* Opt for non-personalized advertising (contextual ads that do not track user activity across apps);
-* Review, modify, or revoke your consent choices at any time directly within the game.
+        <h2>4. Permisiuni Utilizate</h2>
+        <ul>
+            <li><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code>: Necesare strict pentru funcționarea Google AdMob și a consimțământului GDPR.</li>
+            <li><code>VIBRATE</code>: Folosită exclusiv pentru reacții haptice subtile la apăsarea butoanelor (poate fi dezactivată din Setări).</li>
+        </ul>
+        <p><strong>MindQuest NU solicită:</strong> Acces la cameră, microfon, locație GPS, contacte, fotografii sau stocare externă.</p>
 
-For detailed information on how Google processes advertising data, please review:  
-[Google Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites).
+        <h2>5. Confidențialitatea Copiilor (COPPA)</h2>
+        <p>MindQuest este un joc dedicat publicului larg și familiei. Nu colectăm cu bună știință informații personale de la copii sub vârsta de 13 ani.</p>
 
----
+        <h2>6. Contact Dezvoltator</h2>
+        <p>Pentru orice întrebare privind această politică de confidențialitate:</p>
+        <p><strong>Luigy (Dezvoltator Independent)</strong><br>Email: <a href="mailto:luigy.developer@gmail.com">luigy.developer@gmail.com</a></p>
+    </div>
+</div>
 
-## 4. Children's Privacy (COPPA)
+<script>
+    function setLang(lang) {
+        if (lang === 'ro') {
+            document.getElementById('content-en').classList.add('hidden');
+            document.getElementById('content-ro').classList.remove('hidden');
+            document.getElementById('btn-ro').classList.add('active');
+            document.getElementById('btn-en').classList.remove('active');
+            document.getElementById('header-meta').innerText = 'Politică Oficială de Confidențialitate • În vigoare: 14 Noiembrie 2026';
+        } else {
+            document.getElementById('content-ro').classList.add('hidden');
+            document.getElementById('content-en').classList.remove('hidden');
+            document.getElementById('btn-en').classList.add('active');
+            document.getElementById('btn-ro').classList.remove('active');
+            document.getElementById('header-meta').innerText = 'Official Privacy Policy • Effective Date: November 14, 2026';
+        }
+    }
+</script>
 
-MindQuest – Brain & Logic is designed as a family-friendly puzzle experience suitable for general audiences. We do not knowingly collect personal identifiable information from children under the age of 13 (or under the applicable age threshold in your jurisdiction). Advertisements served through Google AdMob adhere to Google Play Families Policy guidelines and content ratings.
-
----
-
-## 5. Device Permissions Requested
-
-The Application requests only the minimal standard Android permissions necessary for operation:
-* `android.permission.INTERNET`: Required solely for Google AdMob ad requests and GDPR consent synchronization.
-* `android.permission.ACCESS_NETWORK_STATE`: Used to verify internet connectivity before initiating ad requests.
-* `android.permission.VIBRATE`: Used exclusively to provide subtle tactile haptic feedback during gameplay actions (can be disabled at any time in Settings).
-
-> **Permissions We NEVER Request:** The Application does NOT request access to your Camera, Microphone, Precise GPS Location, Contacts, Call Logs, Photos, or External Shared Storage.
-
----
-
-## 6. Data Security
-
-Because all game progression is stored within the private, sandboxed internal storage of your device, your data is shielded by Android's robust operating system security model. No other applications on your device can access your MindQuest game save data.
-
----
-
-## 7. User Rights and Controls
-
-Under applicable privacy regulations (such as GDPR and CCPA), you retain full sovereignty over your information:
-* **Right of Erasure:** You can erase all gameplay data and achievements at any time by selecting *"Reset & Restart All Progress"* in Settings or by uninstalling the application.
-* **Data Portability:** You can export your entire progression at any time as an offline text backup code (`MQ1-...`) and save it in your personal notes.
-* **Ad Tracking Opt-Out:** You can reset your Google Advertising ID or opt out of personalized ads at the OS level (*Android Settings -> Google -> Ads*).
-
----
-
-## 8. Updates to this Policy
-
-We may periodically revise this Privacy Policy to reflect app updates or legal requirements. Any modifications will be posted here with an updated effective date.
-
----
-
-## 9. Contact Us
-
-If you have any questions, suggestions, or concerns regarding this Privacy Policy or your experience with MindQuest, please feel free to reach out to:  
-**luigy.developer@gmail.com**
+</body>
+</html>
