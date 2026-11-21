@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — FoodScan Barcode Pro</title>
+  <style>
+    :root { --bg: #f4f8fb; --card: #ffffff; --border: #d7e5ef; --text: #142230; --muted: #4b6074; --accent: #1eb955; --accent-dark: #15803d; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; padding: 28px 16px 48px; }
+    .container { max-width: 840px; margin: 0 auto; background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 30px 28px; box-shadow: 0 12px 32px rgba(20, 34, 48, 0.08); }
+    h1 { margin-top: 0; color: var(--accent-dark); font-size: 28px; }
+    h2 { color: var(--accent-dark); margin-top: 26px; font-size: 19px; border-bottom: 1px solid #e7f0f6; padding-bottom: 6px; }
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+    a { color: var(--accent-dark); font-weight: 600; }
+    .meta { font-size: 13px; color: #5b7085; margin-bottom: 18px; }
+    .callout { background: #eef9f2; border-left: 4px solid var(--accent); padding: 12px 16px; border-radius: 8px; margin: 16px 0; color: var(--text); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy — FoodScan Barcode Pro</h1>
+    <div class="meta"><strong>Package Name:</strong> com.foodscan.barcode.pro &nbsp;|&nbsp; <strong>Effective Date:</strong> November 21, 2026</div>
+
+    <p>Welcome to <strong>FoodScan Barcode Pro</strong>. This Privacy Policy explains what data is processed, which external API and open data sources we use, and your privacy rights.</p>
+
+    <h2>1. No Account, No Developer Server, Local-First Storage</h2>
+    <p>FoodScan Barcode Pro does <strong>not</strong> require registration or login. We do <strong>not</strong> operate any developer backend server and do <strong>not</strong> collect or sell your name, email, phone number, contacts, or precise GPS location.</p>
+    <ul>
+      <li><strong>Local Storage:</strong> Scan history, favorites, comparisons, personal allergen alerts, language, and theme settings are stored exclusively on your device (local SQLite database and Android DataStore).</li>
+      <li>You can clear local history and cache anytime in <strong>Settings &rarr; Clear History &amp; Cache</strong> or by uninstalling the app.</li>
+    </ul>
+
+    <h2>2. Camera &amp; Offline Barcode Scanning (Google ML Kit)</h2>
+    <p>Camera access (<code>android.permission.CAMERA</code>) is requested only when opening the scanner. Barcode recognition (EAN-13, EAN-8, UPC-A, UPC-E) runs <strong>100% locally on your device</strong> via CameraX and Google ML Kit. Camera frames and gallery photos are never uploaded to our servers.</p>
+
+    <h2>3. External Product Data Source &amp; API — Open Food Facts</h2>
+    <p>When looking up a barcode not yet cached locally, the app sends an HTTPS request containing <strong>only the product barcode</strong> (no personal user data) to the public <strong>Open Food Facts API v3</strong>:</p>
+    <ul>
+      <li><strong>Source &amp; API Endpoint:</strong> <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">https://world.openfoodfacts.org</a> (API v3)</li>
+      <li><strong>API Documentation:</strong> <a href="https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/" target="_blank" rel="noopener">https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/</a></li>
+      <li><strong>Database License:</strong> Open Database License (<strong>ODbL v1.0</strong>)</li>
+      <li><strong>Individual Contents License:</strong> Database Contents License (<strong>DbCL v1.0</strong>)</li>
+      <li><strong>Product Photographs:</strong> Creative Commons Attribution-ShareAlike (<strong>CC BY-SA 3.0</strong>)</li>
+      <li><strong>Open Food Facts Privacy Policy:</strong> <a href="https://world.openfoodfacts.org/privacy" target="_blank" rel="noopener">https://world.openfoodfacts.org/privacy</a></li>
+    </ul>
+
+    <div class="callout">
+      <strong>Informational &amp; Allergen Disclaimer:</strong> FoodScan Barcode Pro is an informational tool only and does <strong>not</strong> provide medical advice, diagnosis, or guarantee allergen safety. Product data comes from the community-maintained Open Food Facts database and may be incomplete. Always check the physical product packaging, especially for severe allergies.
+    </div>
+
+    <h2>4. Advertising &amp; GDPR Consent (Google AdMob &amp; UMP)</h2>
+    <p>FoodScan Barcode Pro displays discreet ads provided by <strong>Google AdMob</strong> (Google LLC) on non-critical screens (never inside the scanner or over allergen warnings).</p>
+    <ul>
+      <li>Google AdMob may collect device identifiers (Android Advertising ID), approximate IP-based location, and ad interaction diagnostics.</li>
+      <li>For EEA, UK, and Swiss users, we integrate <strong>Google User Messaging Platform (UMP)</strong> for GDPR consent. You can update consent anytime via <strong>Settings &rarr; Privacy Policy &amp; Ad Consent</strong>.</li>
+      <li>Google Advertising Privacy: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></li>
+    </ul>
+
+    <h2>5. Permissions Used</h2>
+    <ul>
+      <li><strong>CAMERA:</strong> Optional, used solely for local barcode scanning (manual barcode entry is always available).</li>
+      <li><strong>INTERNET / ACCESS_NETWORK_STATE:</strong> Used to query Open Food Facts API v3 and load Google AdMob ads/consent forms.</li>
+    </ul>
+
+    <h2>6. Children's Privacy &amp; Contact</h2>
+    <p>This app is a general-audience utility and does not knowingly collect personal data from children under 13. For privacy inquiries, contact: <a href="mailto:tondeapel23@gmail.com">tondeapel23@gmail.com</a></p>
+  </div>
+</body>
+</html>
